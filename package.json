@@ -1,0 +1,34 @@
+{
+  "name": "modern-starter-theme",
+  "version": "1.0.0",
+  "description": "",
+  "main": "version.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "concurrently \"NODE_ENV=\"production\" webpack\" \"node version.js STARTER_THEME_ASSETS_VERSION\"",
+    "start": "concurrently \"webpack --watch\" \"node dev-server.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.1",
+    "browser-sync": "^2.23.5",
+    "clean-webpack-plugin": "^0.1.17",
+    "concurrently": "^3.5.1",
+    "css-loader": "^0.28.8",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "node-sass": "^4.7.2",
+    "normalize.css": "^7.0.0",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1",
+    "url-loader": "^0.6.2",
+    "webpack": "^4.0.0-alpha.3",
+    "webpack-cli": "^2.0.4",
+    "webpack-dev-middleware": "^2.0.4",
+    "webpack-dev-server": "^2.11.0",
+    "webpack-hot-middleware": "^2.21.0"
+  }
+}
