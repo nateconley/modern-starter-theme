@@ -63,6 +63,6 @@ if (!inProduction) {
 	);
 	module.exports.entry.load.push(
 		'webpack/hot/dev-server',
-		'webpack-hot-middleware/client'
+		'webpack-hot-middleware/client?reload=true'
 	);
 }
