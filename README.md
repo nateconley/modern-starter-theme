@@ -16,13 +16,9 @@ Features:
 - Seperate JS files for scripts needed on load and scripts not required before document loads
 - Normalize.css included
 
-### Search and Replace:
-- STARTER_THEME
-- Starter_Theme
-- starter-theme
-- http://sandbox.dev
-
-A future version will have a script to automatically do this for you!
+### Setup:
+run ```npm install```
+run ```node search-replace.js your theme name```
 
 ### Commands:
 - ```npm start```: start the dev server
