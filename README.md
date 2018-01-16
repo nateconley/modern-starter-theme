@@ -20,7 +20,7 @@ Features:
 run ```npm install```
 run ```node search-replace.js your theme name```
 
-Replace ```http://sandbox.dev``` with your development site's url.
+Replace ```http://sandbox.dev``` in ```dev-server.js``` with your development site's url.
 Replace ```style.css``` header info with your own (but keep that GPL goodness intact).
 
 Rock and roll!
