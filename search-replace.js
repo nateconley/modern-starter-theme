@@ -47,7 +47,7 @@ fileNames.forEach((fileName) => {
 			.replace(new RegExp('Starter Theme', 'g'), normal)
 			.replace(new RegExp('STARTER_THEME', 'g'), loud)
 			.replace(new RegExp('Starter_Theme', 'g'), pretty)
-			.replace(new RegExp('modern-starter-theme', 'g'), slug);
+			.replace(new RegExp('modern-starter-theme', 'g'), slug)
 			.replace(new RegExp('starter-theme', 'g'), slug);
 	
 		fs.writeFile(fileName, newFile, 'utf8', (err) => {
