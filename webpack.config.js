@@ -55,6 +55,11 @@ module.exports = {
 		new CleanWebpackPlugin(['dist']),
 		new ExtractTextPlugin('styles.css'),
 	],
+	externals: [
+		{
+			jquery: 'window.jQuery',
+		},
+	],
 }
 
 if (!inProduction) {
