@@ -1,6 +1,6 @@
 <?php
 
-define( 'STARTER_THEME_ASSETS_VERSION', '1516066630836' );
+define( 'STARTER_THEME_ASSETS_VERSION', '1519615697282' );
 define( 'STARTER_THEME_SLUG', 'starter-theme' );
 define( 'STARTER_THEME_DIST_URL', trailingslashit( get_template_directory_uri() . '/dist' ) );
 
